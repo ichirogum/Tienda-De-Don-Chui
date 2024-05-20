@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro Maestro</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logotipoarmas-removebg-preview.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>AR-15</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/arma11.png" alt="Imagen del Producto" height="90%">
+
+            <div class="camisa__contenido">
+                <p>El AR-15 es un arma táctica que permite cargadores de alta capacidad, lo que le da al atacante un enorme poder letal sin perder tiempo en recargar su munición. Es confiable, rápida y puede usar cargadores con amplia munición</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleciona accesorio --</option>
+                        <option>Mira Holografica</option>
+                        <option>Cartuchos (2)</option>
+                        <option>Silenciador</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Tiro Maestro / Todos Nuestros Derechos Reservados 2001.</p>
+    </footer>
+    
+</body>
+</html>
